@@ -18,9 +18,9 @@
     </nav>
     <main>
       <section id="intro">
-        <h2>Your new UX/UI Designer and Front-end Engineer.</h2>
+        <h2>Your new Front-end Engineer.</h2>
         <h1>
-          I turn ideas into <span class="gradient-text">real life</span> projects.
+          I turn ideas into <span class="gradient-text"> real-life </span> projects.
         </h1>
         <p class="para">Lorem ipsum dolor sit amet. <br> 
           Just kidding! <br> 
@@ -28,10 +28,20 @@
           Let's connect and build something amazing</p>
         <button class="blank-button">Click me</button>
       </section>
+
       <section id="work">
         <h2>Work</h2>
         <div class="placeholder">
-          <p>Placeholder for work photos or content.</p>
+          <div class="carousel">
+    <button class="carousel-button left" onclick="moveLeft()">&#8592;</button> <!-- Left Arrow -->
+    <div class="carousel-images" id="carousel-images">
+        <img src="image1.jpg" alt="Image 1"> <!-- Image 1 -->
+        <img src="image2.jpg" alt="Image 2"> <!-- Image 2 -->
+        <img src="image3.jpg" alt="Image 3"> <!-- Image 3 -->
+    </div>
+    <button class="carousel-button right" onclick="moveRight()">&#8594;</button> <!-- Right Arrow -->
+</div>
+          <p>Loading...</p>
         </div>
       </section>
       <section id="contact">
